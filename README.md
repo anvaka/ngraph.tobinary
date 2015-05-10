@@ -21,8 +21,8 @@ See more details in the `links.bin format` section below
 
 # links.bin format
 
-This file stores entire graph. Each record in the file is Int32 written in Little
-Endian notation. Let's consider the following example:
+This file stores entire graph. Each record in the file is Int32 written in little-endian
+notation. Let's consider the following example:
 
 `labels.json` content:
 
@@ -36,7 +36,7 @@ Endian notation. Let's consider the following example:
 -1 2 3 -2 4
 ```
 
-The negative 1 identifies first "source" node of the graph, and denots 1-based index
+The negative 1 identifies the first "source" node of the graph, and denots 1 based index
 of the element in the `labels.json` file. So in this case it is node `a`.
 
 Following positive integers `2` and `3` mean that `a` is connected to `labels[2 - 1]`
