@@ -1,6 +1,6 @@
 {
   "name": "ngraph.tobinary",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Serialize ngraph.graph to binary format",
   "main": "index.js",
   "scripts": {
