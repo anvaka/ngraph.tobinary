@@ -18,6 +18,22 @@ This will produce three new files:
 * `links.bin` - a binary file with compressed information about the graph.
 See more details in the `links.bin format` section below
 
+## configuration
+
+You can override default settings of the serializer by passing optional configuration
+argument:
+
+``` js
+var graph = require('ngraph.generators').grid(10000, 10000);
+var save = require('ngraph.tobinary');
+save(graph, {
+  outDir: '.', // folder where to save results. '.' by default
+  labels: 'labels.json', // name of the labels file. labels.json by default
+  meta: 'meta.json', // name of the file with meta information. meta.json by default
+  links: 'links.bin' // file name for links array. links.bin by default
+});
+
+```
 
 # links.bin format
 
