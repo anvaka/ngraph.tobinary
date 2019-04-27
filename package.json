@@ -23,7 +23,7 @@
     "ngraph.merge": "0.0.1"
   },
   "devDependencies": {
-    "ngraph.graph": "0.0.11",
-    "tap": "^1.1.0"
+    "ngraph.graph": "0.0.18",
+    "tap": "^13.0.3"
   }
 }
