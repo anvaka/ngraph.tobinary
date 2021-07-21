@@ -4,7 +4,7 @@
   "description": "Serialize ngraph.graph to binary format",
   "main": "index.js",
   "scripts": {
-    "test": "tap test/*.js"
+    "test": "tap --branches=50 --lines=70 --statements=50 --functions=80 test/*.js"
   },
   "keywords": [
     "ngraph",
@@ -23,7 +23,7 @@
     "ngraph.merge": "^1.0.0"
   },
   "devDependencies": {
-    "ngraph.graph": "^18.0.0",
-    "tap": "^13.0.3"
+    "ngraph.graph": "^19.1.0",
+    "tap": "^15.0.5"
   }
 }
